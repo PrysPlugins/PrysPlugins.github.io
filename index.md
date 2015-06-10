@@ -1,8 +1,15 @@
 ---
+title: Pry's Plugins
 ---
 
 ## My Repositories
 
 {% for repository in site.github.public_repositories %}
-* [{{ repository.name }}]({{ repository.html_url }})
+### [{{ repository.name | replace:'-',' ' | replace:'_',' ' }}]({{ repository.html_url }})
+
+{{ repository.description }}
+
+```
+{{ repository }}
+```
 {% endfor %}

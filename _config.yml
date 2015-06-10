@@ -9,6 +9,10 @@ paginate_path: /blog/page:num
 exclude:
   - README.md
 
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-sitemap
 
 timezone: America/New_York
 defaults:

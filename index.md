@@ -9,7 +9,4 @@ title: Pry's Plugins
 
 {{ repository.description }}
 
-```
-{{ repository }}
-```
 {% endfor %}

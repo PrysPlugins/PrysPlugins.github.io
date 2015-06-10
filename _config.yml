@@ -1,13 +1,9 @@
-safe: true
-lsi: false
-pygments: true
-markdown: kramdown
-url: http://plugins.jpry.com
-permalink: /blog/:title
-paginate: 10
-paginate_path: /blog/page:num
-exclude:
-  - README.md
+baseurl: ""
+url: "http://plugins.jpry.com"
+title: "Pry's Plugins"
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
 
 gems:
   - jekyll-mentions
@@ -20,5 +16,16 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
       author: "Jeremy Pry"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

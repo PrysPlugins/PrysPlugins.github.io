@@ -1,5 +1,6 @@
 ---
 title: Pry's Plugins
+permalink: /index.html
 ---
 
 ## My Repositories
